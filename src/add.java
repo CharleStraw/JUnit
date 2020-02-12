@@ -18,7 +18,7 @@ public class add {
     public String show(String str){
         Random rd = new Random();
         String num = String.valueOf(rd.nextInt(10));
-        str= str +" "+ num + " Karol Słoma";
+        str= str +" "+ num + " Big Monkey";
 
         return str;
     }

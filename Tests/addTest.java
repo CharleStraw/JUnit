@@ -23,7 +23,7 @@ public class addTest {
         String str = "";
         Random rd = new Random();
         String num = String.valueOf(rd.nextInt(10));
-        String str1 = str +" "+ num + " Karol Słoma";
+        String str1 = str +" "+ num + " Big Monkey";
 
         assertEquals(str1,t.show("") );
 
